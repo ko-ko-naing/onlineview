@@ -23,13 +23,7 @@ body{
     border-radius: 20px;
     width: 100px;
 }
-.myslick{
-    transition: 0.5s;
-}
-.myslick:hover{
-    transform: scale(1.11);
-    transition: 0.5s;
-}
+
 .slick-next{
     right: 100px;
 }
@@ -38,6 +32,7 @@ body{
 }
 .slick-prev:before, .slick-next:before{
     color: #6503ef;
+    display: none;
 }
 .slick-dots{
     display: flex;
